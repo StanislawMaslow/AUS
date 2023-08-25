@@ -41,9 +41,9 @@ focus = {
 		available_if_capitulated = no
 		
 		completion_reward = {
-			swap_ideas = {
+			
 				add_idea = dirijer_narod_1
-			}
+			
 		}
 	}
 	
