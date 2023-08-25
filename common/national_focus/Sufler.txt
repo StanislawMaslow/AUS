@@ -1,0 +1,82 @@
+focus_tree = {
+	id = french_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = URG
+		}
+	}
+
+	initial_show_position = {
+		x = 0
+	}
+
+	
+	default = no
+	
+focus = {
+		id = prixod_dirijora
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 5
+		y = 0
+		
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = dirijer_narod_1
+			}
+		}
+	}
+	
+	focus = {
+		id = suvlers_vlast
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 5
+		y = 0
+		
+		prerequisite = {prixod_dirijora}
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = dirijer_narod_1
+				add_idea = dirijer_narod_2
+				set_cosmetic_tag = black_troupe
+			}
+		}
+	}
+	
+}

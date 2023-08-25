@@ -1,0 +1,54 @@
+ideas = {
+
+	country = {
+		dirijer_narod_1 = {
+			
+			allowed = {
+				original_tag = URG
+			}
+
+			allowed_civil_war = {
+				
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = -0.1
+				fascism_drift = 0.1
+				stability_factor = 0.05
+				army_org_factor = 0.08
+				stability_weekly = -0.001
+				
+			}
+			
+
+		}
+		
+		dirijer_narod_2 = {
+			
+			allowed = {
+				original_tag = URG
+			}
+
+			allowed_civil_war = {
+				
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 1
+				fascism_drift = 0.1
+				army_morale_factor = 0.10
+				army_org_factor = 0.08
+				war_support_weekly = 0.001
+				
+			}
+			
+
+		}
+		
+		
+	}
+}
