@@ -7205,4 +7205,10 @@ spriteTypes = {
 		name = "GFX_idea_URG_Sakot"
 		texturefile = "gfx/interface/URG/Sasha/leader/URG_Sakot.dds"
 	}
+	
+	spriteType = 
+		name = "GFX_URG_Sanya_came"
+		texturefile = "gfx/interface/URG/Sasha/Focus/URG_Sanya_came.dds"
+	
+	
 }

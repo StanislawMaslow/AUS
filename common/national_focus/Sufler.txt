@@ -19,7 +19,7 @@ focus_tree = {
 	
 focus = {
 		id = prixod_dirijora
-		icon = GFX_focus_fra_devalue_the_franc
+		icon = GFX_URG_Sanya_came
 		x = 5
 		y = 0
 		
@@ -49,7 +49,7 @@ focus = {
 	
 	focus = {
 		id = suvlers_vlast
-		icon = GFX_focus_fra_devalue_the_franc
+		icon = GFX_URG_Ligolize_Sanism
 		x = 5
 		y = 1
 		
@@ -71,7 +71,6 @@ focus = {
 		available_if_capitulated = no
 		
 		completion_reward = {
-		promote_character = URG_Sakot
 		set_politics = { ruling_party = fascism }
 		add_ideas = bolshoy_teatr
 			swap_ideas = {
@@ -85,8 +84,8 @@ focus = {
 	
 	
 	focus = {
-		id = plan_sakoti
-		icon = GFX_focus_fra_devalue_the_franc
+		id = podgotovka_k_1_akt
+		icon = GFX_URG_Preparation_for_Act_1
 		x = 5
 		y = 3
 		
@@ -115,12 +114,12 @@ focus = {
 	}
 	
 	focus = {
-		id = plan_sakoti
-		icon = GFX_focus_fra_devalue_the_franc
+		id = perviy_akt
+		icon = GFX_URG_First_act
 		x = 5
 		y = 4
 		
-		prerequisite = { focus = plan_sakoti }
+		prerequisite = { focus = podgotovka_k_1_akt }
 		mutually_exclusive = { }
 		cost = 10
 			ai_will_do = {
