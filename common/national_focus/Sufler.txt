@@ -72,10 +72,11 @@ focus = {
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_ideas = dirijer_narod_1
-				add_ideas = dirijer_narod_2
+				remove_idea = dirijer_narod_1
+				add_idea = dirijer_narod_2
+				}
 				set_cosmetic_tag = black_troupe
-			}
+				add_ideas = pobeda
 		}
 	}
 	

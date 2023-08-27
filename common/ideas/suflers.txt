@@ -49,6 +49,27 @@ ideas = {
 
 		}
 		
+		pobeda = {
+			
+			allowed = {
+				original_tag = URG
+			}
+
+			allowed_civil_war = {
+				
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				experience_gain_army = 0.1
+				
+			}
+			
+
+		}
+		
 		
 	}
 }
