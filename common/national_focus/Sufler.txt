@@ -51,7 +51,7 @@ focus = {
 		id = suvlers_vlast
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 5
-		y = 2
+		y = 1
 		
 		prerequisite = { focus = prixod_dirijora }
 		mutually_exclusive = { }
@@ -87,7 +87,7 @@ focus = {
 		id = plan_sakoti
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 5
-		y = 2
+		y = 3
 		
 		prerequisite = { focus = suvlers_vlast }
 		mutually_exclusive = { }
@@ -115,7 +115,7 @@ focus = {
 		id = plan_sakoti
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 5
-		y = 2
+		y = 4
 		
 		prerequisite = { focus = plan_sakoti }
 		mutually_exclusive = { }
