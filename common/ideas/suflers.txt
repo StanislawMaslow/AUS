@@ -63,7 +63,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.1
-				experience_gain_army = 0.1
+				experience_gain_army_factor = 0.1
 				
 			}
 			
@@ -72,4 +72,29 @@ ideas = {
 		
 		
 	}
+	
+	academy_spirit = {
+	
+	bolshoy_teatr = {
+			
+			allowed = {
+				original_tag = URG
+			}
+
+			allowed_civil_war = {
+				
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_leader_start_attack_level = 2
+				local_supplies = -0.3
+				
+			}
+
+			
+	}
+	}
+	
 }

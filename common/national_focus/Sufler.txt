@@ -60,7 +60,7 @@ focus = {
 			factor = 1
 		}
 		available = {
-			
+			fascism > 0.4
 		}
 		
 		bypass = {
@@ -71,6 +71,8 @@ focus = {
 		available_if_capitulated = no
 		
 		completion_reward = {
+		set_politics = { ruling_party = fascism }
+		add_ideas = bolshoy_teatr
 			swap_ideas = {
 				remove_idea = dirijer_narod_1
 				add_idea = dirijer_narod_2
