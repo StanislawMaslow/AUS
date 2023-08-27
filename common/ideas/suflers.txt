@@ -117,8 +117,7 @@ ideas = {
 			
 			modifier = {
 				army_leader_start_attack_level = 2
-				local_supply_impact_factor = -0.3
-				local_supplies_for_controller = -0.3
+				out_of_supply_factor = -0.3
 				
 				
 			}
