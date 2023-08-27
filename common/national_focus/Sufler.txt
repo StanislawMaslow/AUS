@@ -60,7 +60,7 @@ focus = {
 			factor = 1
 		}
 		available = {
-			fascism > 0.4
+			fascism > 0.5
 		}
 		
 		bypass = {
@@ -81,5 +81,67 @@ focus = {
 				add_ideas = pobeda
 		}
 	}
+	
+	
+	focus = {
+		id = plan_sakoti
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 5
+		y = 2
+		
+		prerequisite = { focus = suvlers_vlast }
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = plan_sakoti
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 5
+		y = 2
+		
+		prerequisite = { focus = plan_sakoti }
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		
+		add_ideas = perviy_akt
+		
+		}
+	}
+	
+	
+	
 	
 }
