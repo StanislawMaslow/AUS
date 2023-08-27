@@ -42,7 +42,7 @@ focus = {
 		
 		completion_reward = {
 			
-				add_idea = dirijer_narod_1
+				add_ideas = dirijer_narod_1
 			
 		}
 	}
@@ -72,8 +72,8 @@ focus = {
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = dirijer_narod_1
-				add_idea = dirijer_narod_2
+				remove_ideas = dirijer_narod_1
+				add_ideas = dirijer_narod_2
 				set_cosmetic_tag = black_troupe
 			}
 		}
