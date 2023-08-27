@@ -53,7 +53,7 @@ focus = {
 		x = 5
 		y = 2
 		
-		prerequisite = {prixod_dirijora}
+		prerequisite = { focus = prixod_dirijora }
 		mutually_exclusive = { }
 		cost = 10
 			ai_will_do = {
