@@ -12,24 +12,11 @@ characters={
 			id=-1
 		}
 	}
-	URG_venancio_flores={
-		name="Venancio Flores"
-		portraits={
-			civilian={
-				large=GFX_portrait_Venancio_Flores
-			}
-		}
-		country_leader={
-			ideology=anti_revisionism
-			expire="1956.1.1.12"
-			id=-1
-		}
-	}
 	URG_Sakot={
 		name="Alexsandr"
 		portraits={
 			civilian={
-				large=GFX_idea_URG_Sakot
+				large="GFX_idea_URG_Sakot" 
 			}
 		}
 		country_leader={
