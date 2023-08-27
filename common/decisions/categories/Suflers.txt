@@ -8,12 +8,13 @@ Suflurs_focus = {
 	
 	
 visible = {
-		has_completed_focus = podgotovka_k_1_akt
+		
 		
 	}
 
 	allowed = {
 		original_tag = URG
+		has_completed_focus = podgotovka_k_1_akt
 		
 	}
 }

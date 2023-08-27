@@ -41,7 +41,7 @@ focus = {
 		available_if_capitulated = no
 		
 		completion_reward = {
-			
+			promote_character = URG_Sakot
 				add_ideas = dirijer_narod_1
 			
 		}
@@ -85,11 +85,11 @@ focus = {
 	
 	focus = {
 		id = podgotovka_k_1_akt
-<<<<<<< HEAD
+
 		icon = GFX_focus_fra_devalue_the_franc
-=======
+
 		icon = GFX_URG_Preparation_for_Act_1
->>>>>>> 91cbc66e16454ee0ecb4c985c3a5255fe5b2d143
+
 		x = 5
 		y = 2
 		
@@ -119,11 +119,11 @@ focus = {
 	
 	focus = {
 		id = perviy_akt
-<<<<<<< HEAD
+
 		icon = GFX_focus_fra_devalue_the_franc
-=======
+
 		icon = GFX_URG_First_act
->>>>>>> 91cbc66e16454ee0ecb4c985c3a5255fe5b2d143
+
 		x = 5
 		y = 3
 		

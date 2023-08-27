@@ -1,4 +1,20 @@
 characters={
+		
+		URG_Sakot={
+		name=Alexsandr
+		portraits={
+			civilian={
+				large=GFX_idea_URG_Sakot
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ dictator }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+		
 	URG_gabriel_terra={
 		name="Gabriel Terra"
 		portraits={
@@ -12,20 +28,7 @@ characters={
 			id=-1
 		}
 	}
-	URG_Sakot={
-		name="Alexsandr"
-		portraits={
-			civilian={
-				large="GFX_idea_URG_Sakot" 
-			}
-		}
-		country_leader={
-			ideology=nazism
-			traits={ eager_collaborator war_industrialist }
-			expire="1944.1.1.12"
-			id=-1
-		}
-	}
+	
 	URG_ernesto_sanchez_elizondo={
 		advisor={
 			cost = 100
