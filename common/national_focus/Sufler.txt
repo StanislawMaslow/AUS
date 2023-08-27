@@ -71,6 +71,7 @@ focus = {
 		available_if_capitulated = no
 		
 		completion_reward = {
+		promote_character = URG_Sakot
 		set_politics = { ruling_party = fascism }
 		add_ideas = bolshoy_teatr
 			swap_ideas = {
