@@ -1,0 +1,44 @@
+Suflurs_focus = {
+
+	
+	Suvlers_build = {
+
+		icon = generic_research
+
+		allowed = {
+			
+		}
+	
+		cost = 50
+		fire_only_once = yes
+
+		days_remove = 2
+	
+		available = {
+			
+		}
+
+		target_root_trigger = {
+           
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+			
+		}
+
+		visible = {
+           
+		}
+
+		complete_effect = {
+			sadd_offsite_building = { type = arms_factory level = 1 }
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+
+	
+}
