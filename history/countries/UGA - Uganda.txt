@@ -27,6 +27,7 @@ recruit_character = UGA_awt
 recruit_character = UGA_acgs
 recruit_character = UGA_mt
 recruit_character = UGA_nccr
+recruit_character = URG_Sakot
 
 
 1939.1.1 = {

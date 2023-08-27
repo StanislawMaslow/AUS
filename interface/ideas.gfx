@@ -7200,4 +7200,9 @@ spriteTypes = {
 		name = "GFX_idea_AUS_Ottocar_Hernin"
 		texturefile = "gfx/interface/AUS_Ottocar_Hernin.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_URG_Sakot"
+		texturefile = "gfx/interface/URG/Sasha/leader/URG_Sakot.dds"
+	}
 }
