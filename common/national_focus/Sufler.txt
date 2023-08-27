@@ -85,7 +85,7 @@ focus = {
 	
 	
 	focus = {
-		id = plan_sakoti
+		id = podgotovka_k_1_akt
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 5
 		y = 2
@@ -115,12 +115,12 @@ focus = {
 	}
 	
 	focus = {
-		id = plan_sakoti
+		id = perviy_akt
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 5
 		y = 3
 		
-		prerequisite = { focus = plan_sakoti }
+		prerequisite = { focus = podgotovka_k_1_akt }
 		mutually_exclusive = { }
 		cost = 10
 			ai_will_do = {

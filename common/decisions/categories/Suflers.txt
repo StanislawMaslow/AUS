@@ -5,15 +5,15 @@ Suflurs_focus = {
 
 	picture = GFX_decision_cat_picture_faction_management_bulgaria
 
-	scripted_gui = bul_internal_factions_decision_ui
-
-	visible = {
-		has_completed_focus = plan_sakoti
+	
+	
+visible = {
+		has_completed_focus = podgotovka_k_1_akt
 		
 	}
 
 	allowed = {
 		original_tag = URG
-		has_dlc = "Battle for the Bosporus"
+		
 	}
 }

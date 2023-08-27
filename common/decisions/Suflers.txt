@@ -6,16 +6,17 @@ Suflurs_focus = {
 		icon = generic_research
 
 		allowed = {
-			
+			original_tag = URG
 		}
 	
 		cost = 50
 		fire_only_once = yes
 
 		days_remove = 2
+		days_re_enable = 1
 	
 		available = {
-			
+			has_completed_focus = podgotovka_k_1_akt
 		}
 
 		target_root_trigger = {
@@ -32,6 +33,10 @@ Suflurs_focus = {
 		}
 
 		complete_effect = {
+			sadd_offsite_building = { type = arms_factory level = 1 }
+		}
+		
+		modifier = {
 			sadd_offsite_building = { type = arms_factory level = 1 }
 		}
 
